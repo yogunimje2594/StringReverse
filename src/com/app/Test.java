@@ -11,6 +11,9 @@ public class Test{
 		System.out.println(list);
 		
 		list.forEach(System.out::println);
+		for(Integer l:list) {
+			System.out.println(l);
+		}
 	}
 	 
 	 
