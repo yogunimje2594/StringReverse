@@ -10,5 +10,8 @@ public class Test{
 		Collections.reverse(list);
 		System.out.println(list);
 		
+		list.forEach(System.out::println);
 	}
+	 
+	 
 }
