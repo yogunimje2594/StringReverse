@@ -13,6 +13,8 @@ public class Test{
 		list.forEach(System.out::println);
 		for(Integer l:list) {
 			System.out.println(l);
+			
+			int a=10;
 		}
 	}
 	 
